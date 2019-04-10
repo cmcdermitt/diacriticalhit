@@ -25,3 +25,17 @@ hr{
     width:75%;
 }
 
+.lgt {
+    color:red; 
+    font-family: 'Papyrus', serif;
+    font-size: big;
+    font-weight: bold
+
+}
+
+.earth {
+    color:blue;
+    font-family: 'Bodoni', serif;
+    font-style: italic;
+}
+
