@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    color: maroon;
+    background: linear-gradient(limegreen, orange, violet);
+    /*background: linear-gradient(red, orange, yellow, green, blue, indigo, purple);*/
+}
+
+li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16pt;
+    color: navy;
+}
+
+h2 {
+    font-family: 'Comic Sans MS', serif;
+    color: yellow;
+}
+
+
+hr{
+    height:8px;
+    background-color:purple;
+    width:75%;
+}
+
