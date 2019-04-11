@@ -1,10 +1,39 @@
+html {
+    width: 100%;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 14pt;
     color: maroon;
     background: linear-gradient(limegreen, orange, violet);
+    width:100%;
     /*background: linear-gradient(red, orange, yellow, green, blue, indigo, purple);*/
+}
+
+header {
+    background-color: #234178;
+    height: 100px;
+    width: 100%;
+    vertical-align: center;
+}
+
+#header-row {
+    padding-top:10px;
+    margin-bottom:25px;
+    width: 100%;
+    text-align: center;
+}
+
+header a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+    background-color: #234178;
+    padding:10px 5px 10px  5px;
+	font-weight:bold;
+	margin: 0px 10px;
 }
 
 li {
