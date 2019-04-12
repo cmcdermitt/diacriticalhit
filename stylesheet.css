@@ -14,7 +14,6 @@ body {
 
 header {
     background-color: #234178;
-    height: 100px;
     width: 100%;
     vertical-align: center;
 }
@@ -24,11 +23,12 @@ header {
     margin-bottom:25px;
     width: 100%;
     text-align: center;
+    background-color: #234178;
 }
 
 header a {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
+    font-size: 2em;
     color: white;
     background-color: #234178;
     padding:10px 5px 10px  5px;
