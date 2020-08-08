@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    height:100%;
+}
+
+body {
+    background-color: #6388ad;
+    /*height:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items:  stretch;
+    align-items: stretch; */
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* img {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#snail {
+    background-color: maroon;
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#jazzhands {
+    background-color: #6388ad;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+} */
+
+/* #jazzhands p {
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */

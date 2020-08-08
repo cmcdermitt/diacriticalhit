@@ -1,0 +1,79 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    height:100%;
+}
+
+body {
+    height:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items:  stretch;
+    align-items: stretch;
+}
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#snail {
+    background-color: maroon;
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#jazzhands {
+    background-color: #6388ad;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#mchowl {
+    background-color: rgb(7, 7, 61);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#dch {
+    background-color: rgb(98, 31, 165);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p {
+    font-size: 3em;
+}
+
+#snail p {
+    color:white;
+    font-family: Comic Sans MS, Papyrus, Magneto, sans-serif;
+}
+
+#jazzhands p {
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mchowl p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#dch p {
+    color:white;
+    font-family: Futura, 'Franklin Gothic Medium', Helvetica, 'Arial Narrow', Arial, sans-serif;
+    font-size: 20em;
+}

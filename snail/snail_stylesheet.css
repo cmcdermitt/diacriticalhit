@@ -1,0 +1,116 @@
+html {
+    width: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    color: maroon;
+    background: linear-gradient(limegreen, orange, violet);
+    width:100%;
+    /*background: linear-gradient(red, orange, yellow, green, blue, indigo, purple);*/
+}
+
+header {
+    background-color: #234178;
+    width: 100%;
+    vertical-align: center;
+}
+
+#header-row {
+    padding-top:10px;
+    margin-bottom:25px;
+    width: 100%;
+    text-align: center;
+    background-color: #234178;
+}
+
+header a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: white;
+    background-color: #234178;
+    padding:10px 5px 10px  5px;
+	font-weight:bold;
+	margin: 0px 10px;
+}
+
+li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16pt;
+    color: navy;
+}
+
+h2 {
+    font-family: 'Comic Sans MS', serif;
+    color: yellow;
+}
+
+
+hr{
+    height:8px;
+    background-color:purple;
+    width:75%;
+}
+
+.lgt {
+    color:red; 
+    font-family: 'Papyrus', serif;
+    font-size: big;
+    font-weight: bold
+
+}
+
+.earth {
+    color:blue;
+    font-family: 'Bodoni', serif;
+    font-style: italic;
+}
+
+#marquee-div {
+    height:100px;
+    overflow:hidden;
+    position:relative;
+}
+
+#marquee {
+    font-size: 3em;
+    color: #ff34c5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+    /* Apply animation to this element */	
+    -moz-animation: marquee 15s linear infinite;
+    -webkit-animation: marquee 15s linear infinite;
+    animation: marquee 15s linear infinite;
+}
+
+/* Move it (define the marquee animation) */
+@-moz-keyframes marquee {
+0%   { -moz-transform: translateX(100%); }
+100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes marquee {
+0%   { -webkit-transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes marquee {
+0%   { 
+-moz-transform: translateX(100%); /* Firefox bug fix */
+-webkit-transform: translateX(100%); /* Firefox bug fix */
+transform: translateX(100%); 		
+}
+100% { 
+-moz-transform: translateX(-100%); /* Firefox bug fix */
+-webkit-transform: translateX(-100%); /* Firefox bug fix */
+transform: translateX(-100%); 
+}
+}

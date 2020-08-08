@@ -1,0 +1,77 @@
+html {
+    height:100%;
+}
+
+body {
+    background-image: url("media/bg.jpg");
+    font-family: Arial, Calibri, Helvetica, sans-serif;
+    height:100%;
+    padding: 10px;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+dt {
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1em;
+    margin-bottom: 0.5 em;
+}
+
+table {
+    border-style:inset;
+    background-color: lightgray;
+    border-collapse: collapse;
+    margin: 1em;
+}
+
+th {
+    border-style: ridge;
+    font-size: 1.2 em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+td {
+    border-style: ridge;
+    padding: 1em;
+}
+
+/* img {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#snail {
+    background-color: maroon;
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#jazzhands {
+    background-color: #6388ad;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+} */
+
+/* #jazzhands p {
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
